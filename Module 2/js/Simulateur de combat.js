@@ -8,11 +8,7 @@ class personnage{
 
     Precision(){
         if (Math.random()<=this.pp){
-            console.log(this.nom + " a attaqué")
             return true;
-        }
-        else{
-            console.log(this.nom + " a loupé sont attaque")
         }
     }
 }
